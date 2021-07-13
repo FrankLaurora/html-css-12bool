@@ -1,0 +1,19 @@
+[class*="col-"] {
+    text-align: center;
+    padding: 15px;
+    background-color: #006cfa;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+[class*="col-"] > [class*="col-"] {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+    font-size: 0.7rem;
+}
+
+[class*="offset"] {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
